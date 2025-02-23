@@ -1,9 +1,17 @@
-// Your code here...
-#include<stdio.h>
-int main() {
-    float num;
-    printf("Enter a num:");
-    scanf("%f, &num");
+#include <stdio.h>
 
-    printf("You entered: %.2f\n", num)
+int main() {
+    // Declare a floating-point variable
+    float num;
+
+    // Prompt user for input
+    printf("Enter a floating-point number: ");
+    
+    // Take input from user
+    scanf("%f", &num);
+
+    // Print the input number
+    printf("You entered: %.2f\n", num);
+
+    return 0;
 }
