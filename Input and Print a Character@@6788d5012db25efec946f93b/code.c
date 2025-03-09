@@ -4,9 +4,9 @@
 int main() {
     char ch;
     
-    
-    // Print the first character
-    scanf("%c\n", ch);
+    scanf("%c", &ch);
+
+    printf("You entered: %c\n", ch)
     
     
     return 0;
